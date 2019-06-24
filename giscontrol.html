@@ -1,0 +1,3 @@
+Перетащите ссылку в избранное
+<br><br>
+<a href='!function(a,e){var t=prompt("Время поиска на странице в мс\nЕсли интернет медленный - увеличьте значение",500);if(t){var r=prompt("Введите ОГРН","");if(r)if(/^\d+$/.test(r)){e.showFirst();var l=setInterval(function(){var t=!1;a(".ogrn-container > span").each(function(){if(a(this).text()===r)return a(this).closest(".datalist-item").trigger("click"),!(t=!0)}),t?(clearInterval(l),l=null):(a(".pager-block #lastPage").hasClass("disabled")&&(clearInterval(l),l=null,alert("Организации с ОГРН "+r+" не найдено!")),e.showNext())},t)}else alert("Указан неккоретный ОГРН!")}}(window.$,window.orgPage);'>ОГРН</a>
