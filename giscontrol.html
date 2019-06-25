@@ -1,4 +1,24 @@
-Перетащите ссылку в избранное
+Перетащите одну из ссылок в избранное
 <br><br>
 
+Задержка между переходом по страницам 0,5 секунды (и запросом времени задержки):
+<br>
 <a href='javascript:!function(e,t){var a=prompt("Время поиска на странице в мс\nЕсли интернет медленный - увеличьте значение",500);if(a){var i=prompt("Введите ОГРН или название","");i&&(t.showFirst(),setTimeout(function(){s(e(".datalist-item .item-org"))},parseInt(a)))}function s(){var o=!1;if(e(".datalist-item.item-org").each(function(){var t=e(this);if(-1!==t.text().toLowerCase().indexOf(i.toLocaleLowerCase()))return t.closest(".datalist-item").css("background-color","yellow"),o=!0,e("html, body").animate({scrollTop:t.offset().top},500),!1}),!o){if(e(".pager-block #lastPage").hasClass("disabled"))return void alert("Организации "+i+" не найдено!");t.showNext(),setTimeout(s,parseInt(a))}}}(window.$,window.orgPage);'>ПОИСК</a>
+<br><br>
+
+Задержка между переходом по страницам 0,5 секунды (без запроса задержки):
+<br>
+<a href='javascript:!function(e,t){var a=500;if(a){var i=prompt("Введите ОГРН или название","");i&&(t.showFirst(),setTimeout(function(){s(e(".datalist-item .item-org"))},parseInt(a)))}function s(){var o=!1;if(e(".datalist-item.item-org").each(function(){var t=e(this);if(-1!==t.text().toLowerCase().indexOf(i.toLocaleLowerCase()))return t.closest(".datalist-item").css("background-color","yellow"),o=!0,e("html, body").animate({scrollTop:t.offset().top},500),!1}),!o){if(e(".pager-block #lastPage").hasClass("disabled"))return void alert("Организации "+i+" не найдено!");t.showNext(),setTimeout(s,parseInt(a))}}}(window.$,window.orgPage);'>ПОИСК</a>
+<br><br>
+
+
+Задержка между переходом по страницам 0,2 секунды (без запроса задержки):
+<br>
+<a href='javascript:!function(e,t){var a=200;if(a){var i=prompt("Введите ОГРН или название","");i&&(t.showFirst(),setTimeout(function(){s(e(".datalist-item .item-org"))},parseInt(a)))}function s(){var o=!1;if(e(".datalist-item.item-org").each(function(){var t=e(this);if(-1!==t.text().toLowerCase().indexOf(i.toLocaleLowerCase()))return t.closest(".datalist-item").css("background-color","yellow"),o=!0,e("html, body").animate({scrollTop:t.offset().top},500),!1}),!o){if(e(".pager-block #lastPage").hasClass("disabled"))return void alert("Организации "+i+" не найдено!");t.showNext(),setTimeout(s,parseInt(a))}}}(window.$,window.orgPage);'>ПОИСК</a>
+<br><br>
+
+
+Задержка между переходом по страницам 0,1 секунды (без запроса задержки):
+<br>
+<a href='javascript:!function(e,t){var a=100;if(a){var i=prompt("Введите ОГРН или название","");i&&(t.showFirst(),setTimeout(function(){s(e(".datalist-item .item-org"))},parseInt(a)))}function s(){var o=!1;if(e(".datalist-item.item-org").each(function(){var t=e(this);if(-1!==t.text().toLowerCase().indexOf(i.toLocaleLowerCase()))return t.closest(".datalist-item").css("background-color","yellow"),o=!0,e("html, body").animate({scrollTop:t.offset().top},500),!1}),!o){if(e(".pager-block #lastPage").hasClass("disabled"))return void alert("Организации "+i+" не найдено!");t.showNext(),setTimeout(s,parseInt(a))}}}(window.$,window.orgPage);'>ПОИСК</a>
+<br><br>
